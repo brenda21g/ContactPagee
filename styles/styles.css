@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../resources/background.svg);
+  background-size: cover;       
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  color: white;
+}
+
+#Titulo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;      
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; 
+}
+
+#Titulo img {
+  width: 120px;
+  height: auto;
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-top: 80px; 
+}
+
+.encabezado h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.encabezado h2 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+#information {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input, select, textarea {
+  margin-top: 8px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+input, select, textarea {
+  background: white;
+  color: #333;
+}
+
+textarea {
+  resize: none;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.contact-sales {
+  background: white;
+  color: #6b21ff;
+  font-weight: bold;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  font-size: 15p
+}
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
