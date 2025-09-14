@@ -22,7 +22,7 @@ Formulario de contacto para empresas interesadas en precios corporativos. Permit
 
 ## 🔗 Enlace al proyecto
 Repositorio en GitHub: [https://github.com/brenda21g/ContactPage]  
-Deploy: [LINK](https://github.com/brenda21g/ContactPage)
+Deploy: [LINK](https://brenda21g.github.io/ContactPagee/)
 ---
 
 ## 📝 Reflexión
